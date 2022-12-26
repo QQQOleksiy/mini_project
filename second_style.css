@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background: #242424;
+    box-sizing: border-box;
+    padding-right: 15%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+header > .logo > img{
+    height: 65px;
+}
+header > .buttons{
+    display: flex;
+    height: 100%;
+}
+header > .buttons > .button_home_contact{
+    width: 100px;
+    border-right: dimgrey 1px solid;
+    border-left: dimgrey 1px solid;
+}
+header > .buttons :last-child{
+    border-left: 0 solid;
+}
+.button_home_contact > a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.button_home_contact :hover{
+    background: #464545;
+    transition: 0.4s;
+}
+
+
+main{
+    width: 100%;
+    height: auto;
+    background-image: url("image/img_2.png");
+    box-sizing: border-box;
+    padding: 50px 20%;
+}
+main > .space_user_info{
+    width: 100%;
+    height: auto;
+    background: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main > .space_user_info > .info_img_user{
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px 70px 20px;
+}
+main > .space_user_info > .info_img_user > .info_user{
+    width: 50%;
+}
+.info_user > div{
+    padding-top: 10px;
+}
+main > .space_user_info > .info_img_user > .img_user{
+    width: 50%;
+}
+.img_user > img{
+    width: 100%;
+    border: #242424 3px solid;
+    background: cadetblue;
+}
+.posts_button{
+    width: 90%;
+    height: 30px;
+    background: #242424;
+    color: aliceblue;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    border:  #242424 2px solid;
+}
+.posts_button > a{
+    text-decoration: none;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.posts_button :hover{
+    background: aliceblue;
+    color: #242424;
+    transition: 0.4s;
+}
+
+.posts{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.post{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: #242424 1px solid;
+}
+.post > .post_title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+.post > .post_body{
+    width: 70%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.post > .posts_button{
+    width: 70%;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background: #242424;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+}
+.contacts{
+    width: 80%;
+    height: 100px;
+    color: aliceblue;
+}
+.contacts > p > a{
+    text-decoration: none;
+    color: dodgerblue;
+}

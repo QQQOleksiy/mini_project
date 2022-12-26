@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background: #242424;
+    box-sizing: border-box;
+    padding-right: 15%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+header > .logo > img{
+    height: 65px;
+}
+header > .buttons{
+    display: flex;
+    height: 100%;
+}
+header > .buttons > .button_home_contact{
+    width: 100px;
+    border-right: dimgrey 1px solid;
+    border-left: dimgrey 1px solid;
+}
+header > .buttons :last-child{
+    border-left: 0 solid;
+}
+.button_home_contact > a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.button_home_contact :hover{
+    background: #464545;
+    transition: 0.4s;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-image: url("image/img_2.png");
+    box-sizing: border-box;
+    padding: 50px 20%;
+}
+main > .users{
+    width: 100%;
+    height: auto;
+    background: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+main > .users> .user_space{
+    width: 50%;
+    height: 400px;
+    background: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user_space > .user{
+    width: 60%;
+    height: 80%;
+    background: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px #242424 solid;
+}
+.user > .img_user{
+    width: 40%;
+    aspect-ratio: 1 / 1;
+    background: darkcyan;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user > .img_user > img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+.user > .name_user{
+
+}
+.user > .more_info{
+    width: 90%;
+    height: 10%;
+    background: #242424;
+    border: #242424 2px solid;
+}
+.user > .more_info > a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.user > .more_info :hover{
+    background: aliceblue;
+    color: #242424;
+    transition: 0.4s;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background: #242424;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+}
+.contacts{
+    width: 80%;
+    height: 100px;
+    color: aliceblue;
+}
+.contacts > p > a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
