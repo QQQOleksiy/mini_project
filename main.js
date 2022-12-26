@@ -22,7 +22,7 @@
 //     Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)
 
 
-fetch('//jsonplaceholder.typicode.com/users')
+fetch('https://jsonplaceholder.typicode.com/users')
     .then(value => value.json())
     .then(value => {
         let div_users = document.getElementById('users')

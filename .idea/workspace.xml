@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a642b70-52f1-49b3-9f59-bf2d2a6dc2c1" name="Changes" comment="">
+    <list default="true" id="0a642b70-52f1-49b3-9f59-bf2d2a6dc2c1" name="Changes" comment="mini_project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_main.js" beforeDir="false" afterPath="$PROJECT_DIR$/second_main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Intellij project/mini_project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Intellij project/mini_project"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Intellij project\mini_project\image" />
@@ -67,7 +70,18 @@
       <workItem from="1671973845134" duration="682000" />
       <workItem from="1671985551192" duration="1098000" />
       <workItem from="1672007301214" duration="621000" />
+      <workItem from="1672058249705" duration="486000" />
+      <workItem from="1672058951873" duration="46000" />
+      <workItem from="1672059063562" duration="83000" />
     </task>
+    <task id="LOCAL-00001" summary="mini_project">
+      <created>1672058335895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672058335895</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mini_project" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini_project" />
   </component>
 </project>

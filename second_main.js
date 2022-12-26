@@ -1,7 +1,7 @@
 let url = new URL(location.href)
 let id_user = url.searchParams.get('id')
 
-fetch(`//jsonplaceholder.typicode.com/users/${id_user}`)
+fetch(`https://jsonplaceholder.typicode.com/users/${id_user}`)
     .then(value => value.json())
     .then(value => {
         let div_spaceInfoUser = document.getElementById('space_user_info')
@@ -43,7 +43,7 @@ fetch(`//jsonplaceholder.typicode.com/users/${id_user}`)
         spaceImgUser.appendChild(imgUser)
         div_spaceInfoUser.append(info_img_user, div_posts_button)
 
-        fetch(`//jsonplaceholder.typicode.com/users/${id_user}/posts`)
+        fetch(`https://jsonplaceholder.typicode.com/users/${id_user}/posts`)
             .then(value => value.json())
             .then(value => {
                 let div_spaceInfoUser = document.getElementById('space_user_info')

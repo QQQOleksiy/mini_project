@@ -1,7 +1,7 @@
 let url = new URL(location.href)
 let post_id = url.searchParams.get('post_id')
 
-fetch(`//jsonplaceholder.typicode.com/posts/${post_id}`)
+fetch(`https://jsonplaceholder.typicode.com/posts/${post_id}`)
     .then(value => value.json())
     .then(value => {
         let div_spaceInfoPost = document.getElementById('space_user_post')
@@ -29,7 +29,7 @@ fetch(`//jsonplaceholder.typicode.com/posts/${post_id}`)
 
 
 
-        fetch(`//jsonplaceholder.typicode.com/posts/${post_id}/comments`)
+        fetch(`https://jsonplaceholder.typicode.com/posts/${post_id}/comments`)
             .then(value => value.json())
             .then(value => {
                 console.log(value)
